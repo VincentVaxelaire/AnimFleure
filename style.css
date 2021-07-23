@@ -1,0 +1,30 @@
+svg {
+  position: absolute;
+  bottom: 0;
+}
+
+#gouttes {
+  visibility: hidden;
+}
+
+.grabbed {
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transform-box: fill;
+  rotate: -10deg;
+  -webkit-transition: rotate 0.5s;
+  transition: rotate 0.5s;
+}
+
+.grabbed #gouttes {
+  visibility: visible;
+}
+
+#pousse {
+  visibility: hidden;
+}
+
+#abeille, #abeille2 {
+  visibility: hidden;
+}
+/*# sourceMappingURL=style.css.map */
